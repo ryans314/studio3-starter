@@ -1,0 +1,26 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+
+.text-input {
+  width: 50vw;
+}
+
+li {
+  list-style: none;
+}
+
+input:checked + input {
+  text-decoration: line-through;
+  color: gray;
+  font-style: italic;
+}
+
+.deleteButton {
+  vertical-align: middle;
+}
+
+ul {
+  padding-left: 0px;
+}
